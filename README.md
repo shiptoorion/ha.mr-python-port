@@ -1,4 +1,5 @@
-Python port of ha.mr offline link shortener by p2r3.
+Python port of ha.mr offline link shortener by p2r3 (https://github.com/p2r3/ha.mr), MIT License, Copyright (c) 2026 p2r3.
+
 This is the port of the v1.1 release https://github.com/p2r3/ha.mr/releases/tag/v1.1 and I hope the author will keep the compatibility.
 Done entirely by Kimi K3 Max. Works fully offline. Lets you shorten or unshorten a link with a single line of code.
 
