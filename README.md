@@ -9,10 +9,12 @@ The rest of the files are just tests.
 ```python
 from hamr import compress, decompress, shorten, unshorten
 
-short_link = shorten("https://www.youtube.com/watch?v=dQw4w9WgXcQ") # -> http://ha.mr#:c27B@&#wF4e.[7vN417$
+short_link = shorten("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
+# -> http://ha.mr#:c27B@&#wF4e.[7vN417$
 unshorten(short_link) # -> https://www.youtube.com/watch?v=dQw4w9WgXcQ
 
 # Also has these:
-payload = compress("https://www.youtube.com/watch?v=dQw4w9WgXcQ") # -> :c27B@&#wF4e.[7vN417$
+payload = compress("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
+# -> :c27B@&#wF4e.[7vN417$
 decompress(payload) # -> https://www.youtube.com/watch?v=dQw4w9WgXcQ
 ```
