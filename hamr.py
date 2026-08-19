@@ -1,4 +1,4 @@
-"""hamr.py — Python-port of the link compression algorithm ha.mr (https://github.com/p2r3/ha.mr).
+"""hamr.py — Port of ha.mr (https://github.com/p2r3/ha.mr), MIT License, Copyright (c) 2026 p2r3.
 Code written by AI agent Kimi K3.
 
 Воспроизводит `compress()` из compress.js бит-в-бит: те же словари Хаффмана
