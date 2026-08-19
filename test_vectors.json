@@ -1,0 +1,634 @@
+[
+  {
+    "input": "example.com",
+    "ascii": ".Uk6",
+    "link": "http://ha.mr#.Uk6",
+    "qr": "KK3I+",
+    "emoji": "〰️📯",
+    "roundtrip": "http://example.com"
+  },
+  {
+    "input": "https://example.com",
+    "ascii": "~Uk6",
+    "link": "http://ha.mr#~Uk6",
+    "qr": "$L3I+",
+    "emoji": "♈📯",
+    "roundtrip": "https://example.com"
+  },
+  {
+    "input": "http://example.com/",
+    "ascii": ".Uk6",
+    "link": "http://ha.mr#.Uk6",
+    "qr": "KK3I+",
+    "emoji": "〰️📯",
+    "roundtrip": "http://example.com"
+  },
+  {
+    "input": "www.example.com",
+    "ascii": "6Uk6",
+    "link": "http://ha.mr#6Uk6",
+    "qr": "SK3I+",
+    "emoji": "⏫📯",
+    "roundtrip": "http://www.example.com"
+  },
+  {
+    "input": "https://www.example.com/",
+    "ascii": "GUk6",
+    "link": "http://ha.mr#GUk6",
+    "qr": "1L3I+",
+    "emoji": "♐📯",
+    "roundtrip": "https://www.example.com"
+  },
+  {
+    "input": "EXAMPLE.COM",
+    "ascii": ".Uk6",
+    "link": "http://ha.mr#.Uk6",
+    "qr": "KK3I+",
+    "emoji": "〰️📯",
+    "roundtrip": "http://example.com"
+  },
+  {
+    "input": "https://EXAMPLE.COM/Path/To/Page",
+    "ascii": "jO_Cl;oXuaAVF]&?,",
+    "link": "http://ha.mr#jO_Cl;oXuaAVF]&?,",
+    "qr": "+WVVCCNMPCOX.TL72+S.",
+    "emoji": "👨🏾‍❤️‍👨🏿👼🏻🔏🙋🏿‍♀️🙎‍♂️🕺🏿🍈🎁🙍🏼‍♂️",
+    "roundtrip": "https://example.com/Path/To/Page"
+  },
+  {
+    "input": "reddit.com/r/all",
+    "ascii": "K-W'9?s!",
+    "link": "http://ha.mr#K-W'9?s!",
+    "qr": "ADXCQ5DS-",
+    "emoji": "🇵🇸👊🏿🏄🏾👮🏾‍♂️",
+    "roundtrip": "http://reddit.com/r/all"
+  },
+  {
+    "input": "https://old.reddit.com/r/programming/comments/abc123",
+    "ascii": "CHgIGo@,7uH8V~g-v;2FEYvu+8,d",
+    "link": "http://ha.mr#CHgIGo@,7uH8V~g-v;2FEYvu+8,d",
+    "qr": "9$678H//926-KG8NKTV-3TR-89V.77Z$M",
+    "emoji": "🕰️🤱🏾🐻🏇🏽🔐♓☀️🇦🇿🫸🏼🇦🇺🐢📯👩‍👧‍👦♾️🫅🏿",
+    "roundtrip": "https://old.reddit.com/r/programming/comments/abc123"
+  },
+  {
+    "input": "en.wikipedia.org/wiki/Python_(programming_language)",
+    "ascii": "C_i3rkNq#IJ)2-N:YPeNg/;cm:ZtOYcfG&",
+    "link": "http://ha.mr#C_i3rkNq#IJ)2-N:YPeNg/;cm:ZtOYcfG&",
+    "qr": ":I180N4P/ZO9B-JJYY9$CRY741X3E+1-CFAO/4P*",
+    "emoji": "🤖🇧🇬👨🏾‍🦽🎃✅🙎🏻‍♂️🚶🏼‍♀️♿👨🏻‍🏭🇳🇿👩🏻‍🦯🇨🇩🤷🏾‍♀️®️❤️‍🩹🔈🇭🇺💇🏻‍♂️",
+    "roundtrip": "http://en.wikipedia.org/wiki/Python_(programming_language)"
+  },
+  {
+    "input": "github.com/p2r3/ha.mr",
+    "ascii": "~hvUjZg4]p;g",
+    "link": "http://ha.mr#~hvUjZg4]p;g",
+    "qr": "$KK/TR/NJ82/S4$",
+    "emoji": "👮‍♂️🫅🏾🇸🇹💑🏽🇲🇫👨🏼‍🔬👨🏿‍❤️‍💋‍👨🏿",
+    "roundtrip": "http://github.com/p2r3/ha.mr"
+  },
+  {
+    "input": "https://github.com/p2r3/ha.mr/releases",
+    "ascii": "vwy)z,TMV3piS@VDDc:'",
+    "link": "http://ha.mr#vwy)z,TMV3piS@VDDc:'",
+    "qr": "JOPVY*PGULHR7TCL-9+D$6E",
+    "emoji": "👩🏿‍🦽‍➡️👩🏻‍🌾🏷️🇲🇫👨🏼‍❤️‍💋‍👨🏻👱🏻‍♀️🛳️🧎🏻‍♀️‍➡️🫄🏽🍑👨🏾‍❤️‍💋‍👨🏿",
+    "roundtrip": "https://github.com/p2r3/ha.mr/releases"
+  },
+  {
+    "input": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "ascii": ":c27B@&#wF4e.[7vN417$",
+    "link": "http://ha.mr#:c27B@&#wF4e.[7vN417$",
+    "qr": "--M92D7F6Q$F22.P8GDQSYPI",
+    "emoji": "👩🏿‍🤝‍👨🏽🇷🇸👨🏿‍🐰‍👨🏻🇧🇶💁🥤🧎🏽‍♂️👧🏿🇧🇦🔑🙍🏾‍♂️",
+    "roundtrip": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+  },
+  {
+    "input": "stackoverflow.com/questions/1732348/regex-match-open-tags",
+    "ascii": "j~shDDtqsegO$/BG4TjnI_Xa=f'TE98#K*",
+    "link": "http://ha.mr#j~shDDtqsegO$/BG4TjnI_Xa=f'TE98#K*",
+    "qr": ":U83-SBGYGFK3BPZO.R//P$Q$$8PD+5F3W59:S4.",
+    "emoji": "🧎🏽‍➡️🤗🦗👨🏼‍🐰‍👨🏾🎩🧑🏾‍🦼‍➡️😂🤹🏿‍♂️👀🤷🏾🪐🧘🏿‍♂️🛗🐂🪄✔️🙄🏌🏽",
+    "roundtrip": "http://stackoverflow.com/questions/1732348/regex-match-open-tags"
+  },
+  {
+    "input": "https://news.ycombinator.com/item?id=12345678",
+    "ascii": "2+7=gH.'EjEZ5d2'!",
+    "link": "http://ha.mr#2+7=gH.'EjEZ5d2'!",
+    "qr": "X84.HZLC.NH48IXZKRH",
+    "emoji": "👨‍🦽‍➡️👨🏽‍🦲👨🏽‍🤝‍👨🏾🤰👨‍👩‍👦♑🦶🏾🇬🇩👨🏻‍🤝‍👨🏽",
+    "roundtrip": "https://news.ycombinator.com/item?id=12345678"
+  },
+  {
+    "input": "docs.microsoft.com/en-us/dotnet/",
+    "ascii": "jjiK;p#5rj?N5#",
+    "link": "http://ha.mr#jjiK;p#5rj?N5#",
+    "qr": "CJQ$EI-XFP9:U04:",
+    "emoji": "👩🏿‍🤝‍👩🏻🐶👩🏾‍🦱🧖🏾‍♂️👩🏽‍❤️‍👩🏾☦️💑🏼👨🏻‍❤️‍💋‍👨🏻",
+    "roundtrip": "http://docs.microsoft.com/en-us/dotnet"
+  },
+  {
+    "input": "cydia.saurik.com/package/com.example",
+    "ascii": "vLK2b@)](sbS!mZNQ3!.",
+    "link": "http://ha.mr#vLK2b@)](sbS!mZNQ3!.",
+    "qr": "FZ4OT7V027K/CGD4-J06GK:$",
+    "emoji": "💂🏾‍♀️👏👫😙🧜🏼👨🏼‍🎓🐡🧛🏾‍♂️👩🏿‍❤️‍💋‍👩🏼⏭️👩🏽‍❤️‍💋‍👨🏻",
+    "roundtrip": "http://cydia.saurik.com/package/com.example"
+  },
+  {
+    "input": "bbc.co.uk/news/world-europe-12345678",
+    "ascii": "fdL,Lbg8i#AZap'+!(Q_22?-Dn$",
+    "link": "http://ha.mr#fdL,Lbg8i#AZap'+!(Q_22?-Dn$",
+    "qr": "IQDOTQ$RCL6E7:P2EOF/0/C77ODVW-X",
+    "emoji": "🏌🏿‍♀️🇨🇶🏍️🙍🏽‍♀️🫱🏻‍🫲🏽🎞️◀️👩🏾‍❤️‍💋‍👨🏿🧍🏽‍♀️🏃‍♀️‍➡️🧑🏼‍🫯‍🧑🏻🤷🧎🏿‍➡️😖👨🏻‍❤️‍💋‍👨🏻",
+    "roundtrip": "http://bbc.co.uk/news/world-europe-12345678"
+  },
+  {
+    "input": "example.wtf/page",
+    "ascii": "Sb#GyjLf+",
+    "link": "http://ha.mr#Sb#GyjLf+",
+    "qr": "082LVACD:.$",
+    "emoji": "⛷️🦶🏽🙍🏼‍♂️👨🏾‍🦯👨🏻‍❤️‍👨🏻",
+    "roundtrip": "http://example.wtf/page"
+  },
+  {
+    "input": "example.ceo",
+    "ascii": "S[mGrU&",
+    "link": "http://ha.mr#S[mGrU&",
+    "qr": "BHCLTXW.",
+    "emoji": "🇾🇪🫳🏿🧑🏻‍🚒👩🏻‍❤️‍💋‍👨🏻",
+    "roundtrip": "http://example.ceo"
+  },
+  {
+    "input": "example.invalidtld/path",
+    "ascii": "SKR-=8-xFh&*]SnAhPtXM#",
+    "link": "http://ha.mr#SKR-=8-xFh&*]SnAhPtXM#",
+    "qr": ".XBX5XD/MKMD..6*K/FA8P17W",
+    "emoji": "🇬🇪🅿️🤷🏽👨🏿‍✈️🇰🇿🦵🏿🏚️🏃🏾‍♂️‍➡️✌️👮🏾‍♀️👍🏻👨🏾‍❤️‍💋‍👨🏼",
+    "roundtrip": "http://example.invalidtld/path"
+  },
+  {
+    "input": "localhost",
+    "ascii": "vK+[akPj)9q",
+    "link": "http://ha.mr#vK+[akPj)9q",
+    "qr": "B9U0EN3Z.RNWO",
+    "emoji": "🇳🇨🫷🏻🧓🏽🙇🏾‍♀️⬅️👩🏻‍🦳",
+    "roundtrip": "http://localhost"
+  },
+  {
+    "input": "http://localhost:8080/test",
+    "ascii": "4*Lxu0n@RUJTC03sl&",
+    "link": "http://ha.mr#4*Lxu0n@RUJTC03sl&",
+    "qr": "CG$$IP-N+93KG/JL*W:7.",
+    "emoji": "🕹️🚴‍♀️🛂🤱🏿🤙🏾👩🏽‍🐰‍👩🏾😡🦻🏽🧔🏾👨🏼‍❤️‍💋‍👨🏿",
+    "roundtrip": "http://localhost:8080/test"
+  },
+  {
+    "input": "example.com:8080/path",
+    "ascii": "Og*Q-A][fo;A",
+    "link": "http://ha.mr#Og*Q-A][fo;A",
+    "qr": "ABEPSS$*08K5VH",
+    "emoji": "🤲🇧🇹🚵🏽‍♂️🙍🏼‍♂️🧑‍🔬✍🏽👨🏽‍❤️‍💋‍👨🏻",
+    "roundtrip": "http:///8080/path"
+  },
+  {
+    "input": "https://example.com:443/secure",
+    "ascii": "6zZ?.9/ZA",
+    "link": "http://ha.mr#6zZ?.9/ZA",
+    "qr": "2Z0*C2ZB0E+",
+    "emoji": "📮💁🏾‍♂️🎸🧑🏾‍🎄👩🏿‍🫯‍👩🏼",
+    "roundtrip": "https://example.com/secure"
+  },
+  {
+    "input": "http://example.com:80/default-port",
+    "ascii": "~Eb;w3JpLc=1J)",
+    "link": "http://ha.mr#~Eb;w3JpLc=1J)",
+    "qr": ":66GICI47IR$VG7G",
+    "emoji": "👉🚿⚓🦫♓🇮🇶👩‍👩‍👦👨🏻‍❤️‍💋‍👨🏿",
+    "roundtrip": "http://example.com/default-port"
+  },
+  {
+    "input": "example.com:65535/max",
+    "ascii": "jJmtZT.DK;,5",
+    "link": "http://ha.mr#jJmtZT.DK;,5",
+    "qr": ":F1+CWO4MH$+78",
+    "emoji": "🇭🇺🕵🏾‍♂️🧍🏼☪️🕵🏼‍♂️👨‍🍳👨🏼‍❤️‍💋‍👨🏼",
+    "roundtrip": "http:///65535/max"
+  },
+  {
+    "input": "example.com/index.html",
+    "ascii": "W2ZL",
+    "link": "http://ha.mr#W2ZL",
+    "qr": "X6F1:",
+    "emoji": "⚱️🤳🏽👨🏻‍❤️‍💋‍👨🏻",
+    "roundtrip": "http://example.com/index.html"
+  },
+  {
+    "input": "example.com/blog/index.html",
+    "ascii": "n$4@$o[/",
+    "link": "http://ha.mr#n$4@$o[/",
+    "qr": "3LLZI4QEQ",
+    "emoji": "💍👨🏼‍🐰‍👨🏿🔢🖼️👨🏻‍❤️‍💋‍👨🏻",
+    "roundtrip": "http://example.com/blog/index.html"
+  },
+  {
+    "input": "example.com/index.php",
+    "ascii": "C3ZL",
+    "link": "http://ha.mr#C3ZL",
+    "qr": "B8F1:",
+    "emoji": "⚓🤳🏽👨🏻‍❤️‍💋‍👨🏻",
+    "roundtrip": "http://example.com/index.php"
+  },
+  {
+    "input": "https://www.example.com/a/b/index.php?x=1",
+    "ascii": "fyOa9AcB0v/2",
+    "link": "http://ha.mr#fyOa9AcB0v/2",
+    "qr": "RRAA:3HKE8U7R5",
+    "emoji": "🥤👨🏾‍🐰‍👨🏽👇👩🏾‍🦰👩🏻‍🦼🏊🏿‍♀️👨🏼‍❤️‍💋‍👨🏻",
+    "roundtrip": "https://www.example.com/a/b/index.php?x=1"
+  },
+  {
+    "input": "example.com/a",
+    "ascii": "~__QW!",
+    "link": "http://ha.mr#~__QW!",
+    "qr": "91+J2+$",
+    "emoji": "⛑️🧑🏽‍❤️‍🧑🏿👩🏽‍🦽‍➡️",
+    "roundtrip": "http://example.com/a"
+  },
+  {
+    "input": "example.com/a/b/c/d/e/f",
+    "ascii": "rMJ3JEW#zBkEQsw#!",
+    "link": "http://ha.mr#rMJ3JEW#zBkEQsw#!",
+    "qr": "YAZLHILOQDL75$52Y:H",
+    "emoji": "🧍🏻‍♀️👩🏻‍🦱🎯👩🏻‍⚖️🛼💚🧑🏾‍🫯‍🧑🏻🍭👨🏻‍🐰‍👨🏾",
+    "roundtrip": "http://example.com/a/b/c/d/e/f"
+  },
+  {
+    "input": "example.com/UPPERCASE",
+    "ascii": "&W?:2IoDSM[#",
+    "link": "http://ha.mr#&W?:2IoDSM[#",
+    "qr": "R13HPC$X$U934*",
+    "emoji": "👌🏿👮🏾👩🏿‍🫯‍👩🏻👯🏽‍♂️👩🏾‍🤝‍👨🏻👨🏻‍🫯‍👨🏿👨🏻‍❤️‍💋‍👨🏻",
+    "roundtrip": "http://example.com/UPPERCASE"
+  },
+  {
+    "input": "example.com/MixedCase123",
+    "ascii": "~x6*-=,A[Z8m*~)/",
+    "link": "http://ha.mr#~x6*-=,A[Z8m*~)/",
+    "qr": "KFB-$T6B$3SB5IK0XP+",
+    "emoji": "💂🏽‍♂️👩🏾‍🦼‍➡️🫤🤾🏼‍♂️⏹️🇦🇬🧜🏼👩🏼‍❤️‍👩🏿👨🏾‍❤️‍💋‍👨🏻",
+    "roundtrip": "http://example.com/MixedCase123"
+  },
+  {
+    "input": "example.com/12345678",
+    "ascii": "&Och!M=sP!",
+    "link": "http://ha.mr#&Och!M=sP!",
+    "qr": "*./X1*SLOU6",
+    "emoji": "👷‍♂️🧍🏿🍻🤺🧛🏿‍♀️",
+    "roundtrip": "http://example.com/12345678"
+  },
+  {
+    "input": "example.com/some-file_name",
+    "ascii": "rAI9mT;TsSAB[i-",
+    "link": "http://ha.mr#rAI9mT;TsSAB[i-",
+    "qr": "+L:5HE0/E8VJN/N2O$",
+    "emoji": "🧑‍🩰🏄🏼‍♀️🤵‍♀️🏃🏼‍♂️‍➡️😾🕵🏾🤜🏿👩🏼‍🚒",
+    "roundtrip": "http://example.com/some-file_name"
+  },
+  {
+    "input": "example.com//double//slash",
+    "ascii": "&zJii$;d).b]1w",
+    "link": "http://ha.mr#&zJii$;d).b]1w",
+    "qr": "WI*0Z7P0MBC--UU//",
+    "emoji": "🛀🏿🇧🇲🏋🏿‍♂️👨🏼‍🌾👪👨🏿‍🦱🔖👩🏽‍❤️‍💋‍👩🏿",
+    "roundtrip": "http://example.com/double/slash"
+  },
+  {
+    "input": "example.com/trailing/",
+    "ascii": "fHxNi_jUMx#",
+    "link": "http://ha.mr#fHxNi_jUMx#",
+    "qr": "SEMWV/.7XD.5$",
+    "emoji": "🏋🏻🇧🇼👩🏽‍🏭🇮🇱👨🏾‍❤️‍👨🏻👩🏽‍❤️‍💋‍👩🏾",
+    "roundtrip": "http://example.com/trailing"
+  },
+  {
+    "input": "example.com/a/../b/./c",
+    "ascii": "&:In(Se$",
+    "link": "http://ha.mr#&:In(Se$",
+    "qr": "COJ1-7SC1",
+    "emoji": "😛🎢🎏🇴🇲",
+    "roundtrip": "http://example.com/b/c"
+  },
+  {
+    "input": "example.com/?a=1",
+    "ascii": "b8DDBdo",
+    "link": "http://ha.mr#b8DDBdo",
+    "qr": "7IMFE-51*",
+    "emoji": "🇧🇶😌🙅‍♂️👨🏽‍🦼‍➡️",
+    "roundtrip": "http://example.com?a=1"
+  },
+  {
+    "input": "example.com/?a=1&b=2",
+    "ascii": "b_S.deP8:AG",
+    "link": "http://ha.mr#b_S.deP8:AG",
+    "qr": "H96GZ:Z.$F6V7",
+    "emoji": "👨🏼‍🐰‍👨🏾🇸🇮👫🏻🇲🇱🚾👩🏻‍🔧",
+    "roundtrip": "http://example.com?a=1&b=2"
+  },
+  {
+    "input": "example.com/search?q=hello+world",
+    "ascii": "W*9,YNbCX3to/F.[TuU~e;j",
+    "link": "http://ha.mr#W*9,YNbCX3to/F.[TuU~e;j",
+    "qr": "WZLH8Y4N*F6QBZF*PDN97FDD5W/$",
+    "emoji": "👩🏿‍🤝‍👨🏽🚶🏾‍♂️‍➡️🏋🏻‍♂️🫱🏿‍🫲🏾🏭🤝🏽👼🏼🧑🏾‍❤️‍💋‍🧑🏽🧎‍♀️🪩🇬🇵🫱🏾‍🫲🏿👨🏼‍❤️‍💋‍👨🏿",
+    "roundtrip": "http://example.com/search?q=hello%20world"
+  },
+  {
+    "input": "example.com/?q=hello%20world",
+    "ascii": "nJaWq;h-d,z02mmXI",
+    "link": "http://ha.mr#nJaWq;h-d,z02mmXI",
+    "qr": "H2+Z0UTE3Q59I0PD.VSD",
+    "emoji": "🇱🇸👨🏻‍❤️‍👨🏽🤮🦿🔉👶🏻👩🏾‍🦽‍➡️🏴󠁧󠁢󠁳󠁣󠁴󠁿👩🏻‍❤️‍💋‍👨🏾👨🏻‍❤️‍💋‍👨🏻",
+    "roundtrip": "http://example.com?q=hello%20world"
+  },
+  {
+    "input": "example.com/?flag",
+    "ascii": "Ss;aw52p2",
+    "link": "http://ha.mr#Ss;aw52p2",
+    "qr": "LPL3SW:D3W$",
+    "emoji": "🤷‍♀️🫄🏼👩🏿‍🤝‍👩🏾🚵‍♀️👨🏿‍❤️‍👨🏿",
+    "roundtrip": "http://example.com?flag="
+  },
+  {
+    "input": "example.com/?=emptykey",
+    "ascii": ":$id,k4[[2n2",
+    "link": "http://ha.mr#:$id,k4[[2n2",
+    "qr": "$0*2S0WW10-T96",
+    "emoji": "👩🏾‍❤️‍👨🏼👩🏽‍❤️‍💋‍👨🏻🤙🏾🌫️🙎🏽👉🏾👨🏼‍❤️‍💋‍👨🏻",
+    "roundtrip": "http://example.com?=emptykey"
+  },
+  {
+    "input": "example.com/?a=&b=",
+    "ascii": "SX?#uG(=T0",
+    "link": "http://ha.mr#SX?#uG(=T0",
+    "qr": "XZVHD7MZ/F3+",
+    "emoji": "🏋️‍♀️🚩🪐🕉️👨🏼‍🔬👨🏻‍❤️‍💋‍👨🏽",
+    "roundtrip": "http://example.com?a=&b="
+  },
+  {
+    "input": "example.com/path?x=1&y=2&z=3",
+    "ascii": "K?b4=ZT]Uc;_ISxeNs.$",
+    "link": "http://ha.mr#K?b4=ZT]Uc;_ISxeNs.$",
+    "qr": "2$ZZPQ/K$YGQF-BPBP/+U45",
+    "emoji": "🤦🏼‍♀️📛👨🏻‍🍼🔑👲🎰🇲🇦🥫⛔🧙🏽‍♀️👨🏽‍❤️‍💋‍👨🏼",
+    "roundtrip": "http://example.com/path?x=1&y=2&z=3"
+  },
+  {
+    "input": "example.com/?a=1&a=2&a=3",
+    "ascii": "blL28sJb)0@!0n3",
+    "link": "http://ha.mr#blL28sJb)0@!0n3",
+    "qr": "9.$OJ1F2GF2R6EURJ*",
+    "emoji": "👏🏿🌌👨🏿‍🫯‍👨🏽👩‍🦱🪤🎅🏿👩🏼‍🤝‍👨🏻🙆🏻‍♂️",
+    "roundtrip": "http://example.com?a=1&a=2&a=3"
+  },
+  {
+    "input": "example.com/page#section",
+    "ascii": "WjSa_ymW2M84-7",
+    "link": "http://ha.mr#WjSa_ymW2M84-7",
+    "qr": "+Z30D0NR95KCS.XH$",
+    "emoji": "👩🏼‍🔬◻️↖️👮‍♀️🇭🇳🧑🏿‍🍳💁🏻👨🏽‍❤️‍💋‍👨🏾",
+    "roundtrip": "http://example.com/page#section"
+  },
+  {
+    "input": "example.com/#top",
+    "ascii": "vs-#&?4",
+    "link": "http://ha.mr#vs-#&?4",
+    "qr": ".H48+1LF",
+    "emoji": "🧑🏿‍❤️‍💋‍🧑🏻♐🧑🏼‍🔧👨🏻‍🐰‍👨🏼",
+    "roundtrip": "http://example.com#top"
+  },
+  {
+    "input": "example.com/path?x=1#frag",
+    "ascii": "K?bYX$#(u)7Snb:Q",
+    "link": "http://ha.mr#K?bYX$#(u)7Snb:Q",
+    "qr": "UKOGH82+ZS-6ITVTA95",
+    "emoji": "👩🏿‍❤️‍💋‍👨🏿👩🏿‍❤️‍💋‍👨🏼🏴󠁧󠁢󠁥󠁮󠁧󠁿😎⛎🤣🔂🔁👩🏾‍❤️‍💋‍👨🏻",
+    "roundtrip": "http://example.com/path?x=1#frag"
+  },
+  {
+    "input": "example.com#",
+    "ascii": ".Uk6",
+    "link": "http://ha.mr#.Uk6",
+    "qr": "KK3I+",
+    "emoji": "〰️📯",
+    "roundtrip": "http://example.com"
+  },
+  {
+    "input": "example.com/a%20b",
+    "ascii": "&bD&wj~M2",
+    "link": "http://ha.mr#&bD&wj~M2",
+    "qr": "+140RIC+9U$",
+    "emoji": "🧑🏿‍🤝‍🧑🏾👬🏾🛌🏾🕺🏿👨🏿‍❤️‍👨🏻",
+    "roundtrip": "http://example.com/a%20b"
+  },
+  {
+    "input": "example.com/%E2%9C%93",
+    "ascii": "r4PyemSBH3BN(",
+    "link": "http://ha.mr#r4PyemSBH3BN(",
+    "qr": "+/$PW$SX*VYSZT2",
+    "emoji": "🏃🏽🧝‍♂️👨🏼‍🍼🇳🇵🙆‍♀️💃👩🏼‍❤️‍👨🏻",
+    "roundtrip": "http://example.com/%e2%9c%93"
+  },
+  {
+    "input": "example.com/100%25-sure",
+    "ascii": "WvkfVHAffP];d1",
+    "link": "http://ha.mr#WvkfVHAffP];d1",
+    "qr": "LNGX*6AQ05UDEJ70$",
+    "emoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿🤩📀👨🏾‍❤️‍👨🏽🧎‍♀️👩🏻‍🦲😂👨🏼‍❤️‍💋‍👨🏿",
+    "roundtrip": "http://example.com/100%25-sure"
+  },
+  {
+    "input": "example.com/%2F%3F%23",
+    "ascii": "W.4:kp8lP7w,v;&f+5J(",
+    "link": "http://ha.mr#W.4:kp8lP7w,v;&f+5J(",
+    "qr": "DSX9M.72A$UMVMA8F9N4K3J",
+    "emoji": "👨‍🦰🦠👷🏼‍♀️✂️👱🏽‍♀️🧝🏽🦡🇫🇷👎🏼🚴🏿‍♀️👨🏿‍❤️‍💋‍👨🏿",
+    "roundtrip": "http://example.com/%252F%253F%2523"
+  },
+  {
+    "input": "example.com/~user",
+    "ascii": "&&am]1o],+",
+    "link": "http://ha.mr#&&am]1o],+",
+    "qr": "H6XDGW8D3W$*",
+    "emoji": "🦶🏾👨🏼‍🍼👩‍🦱⏩☮️👨🏻‍❤️‍💋‍👨🏻",
+    "roundtrip": "http://example.com/~user"
+  },
+  {
+    "input": "example.com/file~name~v2",
+    "ascii": "~d!s!R?PqLJJTNz4(",
+    "link": "http://ha.mr#~d!s!R?PqLJJTNz4(",
+    "qr": "X+EY5J200:W4WX4H3BE+",
+    "emoji": "👵🏾😿😸🍟🧆🫰🏽🏇🏻🫱🏽👨🏿‍🚒",
+    "roundtrip": "http://example.com/file~name~v2"
+  },
+  {
+    "input": "example.com/привет/мир",
+    "ascii": "Wj2qC@pPle(aFFXCtKh?,7YVE!C[o4IY84NY/i8D_'[ikSX?KmV4!$,",
+    "link": "http://ha.mr#Wj2qC@pPle(aFFXCtKh?,7YVE!C[o4IY84NY/i8D_'[ikSX?KmV4!$,",
+    "qr": "G90X2F7CF$.H7-6EQE.:K*9BNQ*SXD-XK.Y.LQ83I6FXK-K:*655.$0Z0W2+8$X6*",
+    "emoji": "☠️🇯🇪👒🤼‍♀️🇿🇼🤡🧏🏾🧑🎭😳🧑🏼‍🔧🧎🏾‍➡️👨🏿‍❤️‍💋‍👨🏻👨🏾‍🤝‍👨🏽🐧🙏🏼🧑🏾‍✈️👨🏽🧵🙌🏿👨🏾‍🫯‍👨🏿👩🏽‍🫯‍👩🏻🛀🏽🛶👩🏽‍🍳🦼🤲🏼👩🏾‍❤️‍👨🏿❔👨🏻‍❤️‍💋‍👨🏽",
+    "roundtrip": "http://example.com/%d0%bf%d1%80%d0%b8%d0%b2%d0%b5%d1%82/%d0%bc%d0%b8%d1%80"
+  },
+  {
+    "input": "example.com/✓✓✓",
+    "ascii": "Wj&0DqX9kl'2enD@I]S;YF8NXjbB'",
+    "link": "http://ha.mr#Wj&0DqX9kl'2enD@I]S;YF8NXjbB'",
+    "qr": ".$DWAZTLPF4/IE378NLB$$3BRPK-P6UC+.",
+    "emoji": "🤷🏿🧑🏻‍🎄🙎🏿‍♂️🕷️🪜🎃🌾🫄🏾🇫🇷🎩🤸‍♂️🫳🍏👨🏼‍🚒💑🏽👨🏻‍❤️‍💋‍👨🏾",
+    "roundtrip": "http://example.com/%e2%9c%93%e2%9c%93%e2%9c%93"
+  },
+  {
+    "input": "example.com/?q=привет",
+    "ascii": ":Z#C4i2SCksQ4fWmETkV3@I'wr:~Hp#ezPdGZ!'",
+    "link": "http://ha.mr#:Z#C4i2SCksQ4fWmETkV3@I'wr:~Hp#ezPdGZ!'",
+    "qr": "6KUPCQY*4A79+9EHH*GIC+PCFRE/I-SNFR/H3044EZ93+*",
+    "emoji": "🤷🏾🐙📱🦟🤾🏼‍♂️👼🏿👩🏻‍❤️‍💋‍👨🏼👩🏾‍🫯‍👩🏼🦸🏻‍♂️🇧🇪🌷🚰🇧🇬🕐⛹🏼‍♂️🦹🏿‍♀️🥼🙅🏻‍♂️👩🏾‍🚀🍎🧑🏻‍❤️‍💋‍🧑🏼",
+    "roundtrip": "http://example.com?q=%d0%bf%d1%80%d0%b8%d0%b2%d0%b5%d1%82"
+  },
+  {
+    "input": "example.com/#фрагмент",
+    "ascii": "vgMW-fYM33Hd))#B9xN7-2lSlJpDXtMb$~V5Y'w&,BQd:wt",
+    "link": "http://ha.mr#vgMW-fYM33Hd))#B9xN7-2lSlJpDXtMb$~V5Y'w&,BQd:wt",
+    "qr": "SGU172WW2-8WFYBC$PXQGX4ZUXBT+U1SU*J69BW$$LFSCHCAAJJOP*O+",
+    "emoji": "👨🏻‍🚒👩🏼‍🤝‍👩🏻👨🏽‍❤️‍👨🏾🧙🏻‍♀️🟰👯🏽‍♀️🗻👸🇫🇮🏃🏼‍♂️‍➡️🙍🏻‍♂️🙎‍♀️🙄🦎👩🏽‍🐰‍👩🏾🦒🕎🇦🇷👩🏻‍🤝‍👩🏼👰🏾‍♀️🥹🧏🏾‍♀️👌🆚🧑🏾‍🫯‍🧑🏼👨🏻‍❤️‍💋‍👨🏽",
+    "roundtrip": "http://example.com#%d1%84%d1%80%d0%b0%d0%b3%d0%bc%d0%b5%d0%bd%d1%82"
+  },
+  {
+    "input": "https://user:pass@example.com/secure",
+    "ascii": "6zZ?.9/ZA",
+    "link": "http://ha.mr#6zZ?.9/ZA",
+    "qr": "2Z0*C2ZB0E+",
+    "emoji": "📮💁🏾‍♂️🎸🧑🏾‍🎄👩🏿‍🫯‍👩🏼",
+    "roundtrip": "https://example.com/secure"
+  },
+  {
+    "input": "http://1.1.1.1/dns",
+    "ascii": "2*7C740,L3TXh&!p",
+    "link": "http://ha.mr#2*7C740,L3TXh&!p",
+    "qr": "0SE3N/.IRNY/2SSOGAD",
+    "emoji": "🤦🏿‍♂️👫🏽🟰🫳🏽🧎🏿‍➡️🐟🚭🔔🧑🏾‍❤️‍💋‍🧑🏽",
+    "roundtrip": "http://1.1.1.1/dns"
+  },
+  {
+    "input": "https://8.8.8.8/",
+    "ascii": ":lZU@8WFQs#a8!",
+    "link": "http://ha.mr#:lZU@8WFQs#a8!",
+    "qr": "COJ6.E*8GTD0L1/-",
+    "emoji": "⏏️🏙️🧑🏽‍🔧🍦🎹👩🏼‍🎓🤩",
+    "roundtrip": "https://8.8.8.8"
+  },
+  {
+    "input": "https://example.com/already",
+    "ascii": "jCc'1)EYf@",
+    "link": "http://ha.mr#jCc'1)EYf@",
+    "qr": "Q/TZ*919*RK/",
+    "emoji": "👩‍👩‍👦🏂👨🏿‍⚖️👨🏻‍🌾🇨🇶👨🏼‍❤️‍💋‍👨🏻",
+    "roundtrip": "https://example.com/already"
+  },
+  {
+    "input": "http://example.com/plain?x=1#y",
+    "ascii": "K?b4dIO,8.Yxqw(",
+    "link": "http://ha.mr#K?b4dIO,8.Yxqw(",
+    "qr": "T1DVM7A*.I55+0OB$$",
+    "emoji": "🍑🖐🏼🐈‍⬛👳🏻🧖🏽🚶🏿‍♀️‍➡️🌼👨‍👨‍👧‍👧",
+    "roundtrip": "http://example.com/plain?x=1#y"
+  },
+  {
+    "input": "ftp://ftp.example.com/pub/file.zip",
+    "ascii": "~Y$HuN=ZVqp@uAD,PKj",
+    "link": "http://ha.mr#~Y$HuN=ZVqp@uAD,PKj",
+    "qr": "OU14$MA:OIJ/MUTM*A:QRA+",
+    "emoji": "🇬🇲🪯🔟🚵🏻⬛🍀🇰🇭🪟☄️👩🏿‍💼👨🏻‍❤️‍💋‍👨🏽",
+    "roundtrip": "http://ftp.example.com/pub/file.zip"
+  },
+  {
+    "input": "notreddit.com",
+    "ascii": "&Kpv",
+    "link": "http://ha.mr#&Kpv",
+    "qr": "2EYZ5",
+    "emoji": "↪️👩🏾‍❤️‍👩🏼👨🏻‍❤️‍💋‍👨🏽",
+    "roundtrip": "http://notreddit.com"
+  },
+  {
+    "input": "reddit.com.evil.com/x",
+    "ascii": ".00A$XqhW!I?yL",
+    "link": "http://ha.mr#.00A$XqhW!I?yL",
+    "qr": "-W6:8GIRFIR8ZKZ:+",
+    "emoji": "👨🏿‍🎨👩🏽‍🫯‍👩🏻👩🏿‍❤️‍👨🏿👸🏾▪️🧑🏾‍❤️‍💋‍🧑🏼🛷👩🏻‍❤️‍💋‍👨🏽",
+    "roundtrip": "http://reddit.com.evil.com/x"
+  },
+  {
+    "input": "www.wikipedia.org",
+    "ascii": "6TPR",
+    "link": "http://ha.mr#6TPR",
+    "qr": "JY920",
+    "emoji": "🇲🇨🔦👨🏻‍❤️‍💋‍👨🏻",
+    "roundtrip": "http://www.wikipedia.org"
+  },
+  {
+    "input": "a.b.c.example.com/deep/path?query=1#hash",
+    "ascii": "fL+jo;R85B#l[jjoT5Qv*x#TY-hI,",
+    "link": "http://ha.mr#fL+jo;R85B#l[jjoT5Qv*x#TY-hI,",
+    "qr": "Q8N$*X5I+LV8DGRI5P-$B9P8GH-+WBU$U1",
+    "emoji": "🧘🏻‍♂️👨🏾‍❤️‍💋‍👨🏼🧚🏾👩🏼‍🐰‍👩🏿🇫🇰😚🍵🟨🦸🏽‍♂️⛪🔷🚴🏼🥡💮😉👨🏼‍❤️‍💋‍👨🏽",
+    "roundtrip": "http://a.b.c.example.com/deep/path?query=1#hash"
+  },
+  {
+    "input": "example.com/?",
+    "ascii": ".Uk6",
+    "link": "http://ha.mr#.Uk6",
+    "qr": "KK3I+",
+    "emoji": "〰️📯",
+    "roundtrip": "http://example.com"
+  },
+  {
+    "input": "example.com/!$&'()*+,;=:@",
+    "ascii": "r8SiJ7hI!A5BHNxt')",
+    "link": "http://ha.mr#r8SiJ7hI!A5BHNxt')",
+    "qr": "9PZD...95RHJTKLH-*YQ:",
+    "emoji": "👷🏼‍♂️🌊👩🏽‍❤️‍💋‍👨🏼🚴🏻🐩🦆🖕🏻🧚‍♀️🏌🏼👨🏽‍❤️‍💋‍👨🏿",
+    "roundtrip": "http://example.com/!$&'()*+,;=:@"
+  },
+  {
+    "input": "example.com/very-long-segment-with-lots-of-words-and-dashes-between-them",
+    "ascii": "~EGyM74z.;=w--o_yxw2=1/8aGt)5+DmB-qhzix,p]!Bfz;(55",
+    "link": "http://ha.mr#~EGyM74z.;=w--o_yxw2=1/8aGt)5+DmB-qhzix,p]!Bfz;(55",
+    "qr": "8AJ-D$T7*O//M9D$7908CR:T4Y-XGJDCNF4SVNUZKJVIFP-UB/ZXQLVS6Q/",
+    "emoji": "🇴🇲🦨🤷‍♂️👩🏽‍❤️‍👩🏿🙅🏼👨🏿‍🏭🚶🏽👶🏿🏅👨🏽‍🎤👩🏼‍🏭👩🏾‍🤝‍👨🏿🤼🏿‍♀️☦️🐔👩‍🎓🧎🏼‍♀️🖲️⤵️🧚🏽‍♀️🧑🏼‍💼🔷👨🏿‍🦼🧍🏽‍♀️🚶🏽‍♂️‍➡️👩🏽‍🦽‍➡️👨🏻‍🫯‍👨🏽",
+    "roundtrip": "http://example.com/very-long-segment-with-lots-of-words-and-dashes-between-them"
+  },
+  {
+    "input": "https://ha.mr/#recursive",
+    "ascii": "6B23#Yn.ePr#+VV$",
+    "link": "http://ha.mr#6B23#Yn.ePr#+VV$",
+    "qr": "CGV956JJHFGELS-1Z$$",
+    "emoji": "🚿👩🏼‍🔧🇫🇮👨🏽‍❤️‍💋‍👨🏻🇸🇩🤹🏻‍♀️👨🏽‍🔬🇭🇰👨🏻‍❤️‍💋‍👨🏾",
+    "roundtrip": "https://ha.mr#recursive"
+  },
+  {
+    "input": "x.co",
+    "ascii": "~?s&",
+    "link": "http://ha.mr#~?s&",
+    "qr": "R4LS",
+    "emoji": "💴👩🏿‍💼",
+    "roundtrip": "http://x.co"
+  },
+  {
+    "input": "t.co/abcXYZ123",
+    "ascii": "*zB+gY3aRGN&D$",
+    "link": "http://ha.mr#*zB+gY3aRGN&D$",
+    "qr": "N7/06.H.EYCR5.+3",
+    "emoji": "📕🧙🏿💂🏼🧑🏽‍❤️‍🧑🏿🙇🏾🎢🧛🏼‍♂️👨🏻‍❤️‍💋‍👨🏼",
+    "roundtrip": "http://t.co/abcXYZ123"
+  }
+]
